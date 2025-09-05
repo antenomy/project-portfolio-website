@@ -1,0 +1,111 @@
+{
+  "name": "Lucas Grant",
+  "contact": {
+    "phone": "+00 00 000 00 00",
+    "email": "contact@lucasgrant.com",
+    "linkedin": "https://www.linkedin.com/in/lucas-grant-28618526b/",
+    "github": "https://github.com/antenomy"
+  },
+  "summary": "M.Sc. Engineering Mathematics student with a passion for applied mathematics, machine learning, game development, and technology. Experience in business development, software engineering, event coordination, and DevOps through academic projects, student organizations, and industry internships.",
+  "education": [
+    {
+      "degree": "M.Sc. Engineering Mathematics",
+      "institution": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "start_date": "August 2024",
+      "end_date": "Present",
+      "image": "images/kth.png",
+      "notables": [
+        "Program Emphasis: Applied Mathematics, Computer Science, and Numerical Analysis.", 
+        "FDEV: Active member of student group collaborating on programming projects.", 
+        "KTH AI Society: Business Development Representative at KTH AI Society, organising and attending events such as hackathons, lectures and workshops on AI."
+      ]
+    },
+    {
+      "degree": "Natural Science Program",
+      "institution": "Täby Enskilda Gymnasium",
+      "location": "Stockholm, Sweden",
+      "start_date": "August 2020",
+      "end_date": "June 2023",
+      "image": "images/taby.png",
+      "notables": [
+        "Graduation Paper: \"Probability in a Basic Quantum Computer\"", 
+        "Extracurricular: Lead Organizer of Class Graduation"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data & ML Engineering Intern",
+      "organization": "Gilion",
+      "location": "Stockholm, Sweden",
+      "start_date": "September 2025",
+      "end_date": "Present",
+      "image": "images/gilion.png",
+      "responsibilities": [
+        "Work with RAG systems optimizing for user experience and cost"
+      ]
+    },
+    {
+      "title": "Business Development Representative",
+      "organization": "KTH AI Society",
+      "location": "Stockholm, Sweden",
+      "start_date": "June 2025",
+      "end_date": "Present",
+      "image": "images/ais.png",
+      "responsibilities": [
+        "Manage communication with prospective and existing partners",
+        "Negotiate agreements and establish long-term partnership plans",
+        "Organize and coordinate events such as hackathons, lectures, and workshops"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "organization": "H&M",
+      "location": "Stockholm, Sweden",
+      "start_date": "June 2025",
+      "end_date": "August 2025",
+      "image": "images/hm.jpg",
+      "responsibilities": [
+        "Full-stack iOS and Android development using Swift, SwiftUI, Kotlin, and Jetpack Compose",
+        "Worked with FastAPI backend in Python and PostgreSQL database",
+        "Shadowed team members, received mentorship, and contributed to large-scale DevOps project"
+      ]
+    },
+    {
+      "title": "Teacher’s Assistant & Recreational Leader",
+      "organization": "Baldersskolan",
+      "location": "Danderyd, Sweden",
+      "start_date": "August 2023",
+      "end_date": "July 2024",
+      "image": "images/danderyds_kommun.png",
+      "responsibilities": [
+        "Assisted teachers during lessons",
+        "Planned and conducted after-school childcare and recreational activities"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "LLM Retrieval App",
+      "description": "Built a production-grade retrieval augmented generation system with semantic search, evaluation harness, and observability.",
+      "tech": ["Python", "FastAPI", "OpenAI", "Qdrant"]
+    },
+    {
+      "title": "Time-Series Anomaly Detection",
+      "description": "Designed an online anomaly detector with seasonal decomposition and robust thresholds; reduced alert noise by 60%.",
+      "tech": ["PyTorch", "Airflow", "Grafana"]
+    },
+    {
+      "title": "Feature Store & Batch Scoring",
+      "description": "Implemented a lightweight feature store and batch scoring pipeline with data quality checks and drift monitoring.",
+      "tech": ["dbt", "Snowflake", "Great Expectations"]
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Python", "Go", "Swift", "Kotlin", "Java", "Matlab"],
+    "technologies": ["PyTorch", "FastAPI", "PostgreSQL", "Jetpack"],
+    "tools": ["Azure", "NixOS", "XCode", "Android Studio"],
+    "software": ["Microsoft Office Suite", "Figma", "Adobe Photoshop", "Overleaf"]
+  },
+}
