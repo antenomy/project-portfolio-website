@@ -107,5 +107,5 @@
     "technologies": ["PyTorch", "FastAPI", "PostgreSQL", "Jetpack"],
     "tools": ["Azure", "NixOS", "XCode", "Android Studio"],
     "software": ["Microsoft Office Suite", "Figma", "Adobe Photoshop", "Overleaf"]
-  },
+  }
 }
