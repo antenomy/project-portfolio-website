@@ -87,19 +87,14 @@
   ],
   "projects": [
     {
-      "title": "LLM Retrieval App",
-      "description": "Built a production-grade retrieval augmented generation system with semantic search, evaluation harness, and observability.",
-      "tech": ["Python", "FastAPI", "OpenAI", "Qdrant"]
+      "title": "Fashion ragSearch",
+      "description": "Built a retrieval augmented generation system with semantic search, evaluation harness, and observability.",
+      "tech": ["Python", "FastAPI", "OpenAI", "RAG", "Swift", "PostgreSQL"]
     },
     {
       "title": "Time-Series Anomaly Detection",
       "description": "Designed an online anomaly detector with seasonal decomposition and robust thresholds; reduced alert noise by 60%.",
       "tech": ["PyTorch", "Airflow", "Grafana"]
-    },
-    {
-      "title": "Feature Store & Batch Scoring",
-      "description": "Implemented a lightweight feature store and batch scoring pipeline with data quality checks and drift monitoring.",
-      "tech": ["dbt", "Snowflake", "Great Expectations"]
     }
   ],
   "skills": {
