@@ -88,13 +88,21 @@
   "projects": [
     {
       "title": "Fashion ragSearch",
-      "description": "Built a retrieval augmented generation system with semantic search, evaluation harness, and observability.",
-      "tech": ["Python", "FastAPI", "PyTorch", "OpenAI", "RAG", "Swift", "SwiftUI", "PostgreSQL"]
+      "description": "Built a smart fashion advisor system with semantic search, evaluation harness, and observability.",
+      "tech": ["Python", "FastAPI", "PyTorch", "OpenAI", "RAG", "Swift", "SwiftUI", "PostgreSQL"],
+      "repo_link": "https://github.com/antenomy/project-fashion-ragsearch"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Built my own website using HTML, CSS and JavaScript to learn the basics of frontend web dev and display my personal projects and contact information.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "repo_link": "https://github.com/antenomy/project-portfolio-website"
     },
     {
       "title": "MNIST",
-      "description": "Designed an online anomaly detector with seasonal decomposition and robust thresholds; reduced alert noise by 60%.",
-      "tech": ["Python", "PyTorch", "ML"]
+      "description": "Designed my own class for Neural Networks using PyTorch from the ground up to solve the classic MNIST image classification problem.",
+      "tech": ["Python", "PyTorch", "Numpy", "ML", "CNN"],
+      "repo_link": "https://github.com/antenomy/project-mnist-pytorch"
     }
 
   ],

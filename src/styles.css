@@ -30,6 +30,11 @@ body {
   background-attachment: fixed;
 }
 
+.padding-sm { padding: 1rem; }
+.padding-md { padding: 2rem; }
+.padding-lg { padding: 4rem; }
+.padding-xl { padding: 16rem; }
+
 .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
 /* Header & Nav */
@@ -70,6 +75,34 @@ body {
 .nav-toggle { display: none; background: transparent; color: var(--text); border: 0; font-size: 22px; }
 
 /* Hero */
+
+
+.scroll-down-arrow {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  color: var(--accent);
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-down-arrow.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.scroll-down-arrow:hover {
+  transform: translateX(-50%) translateY(5px); /* small hover bounce */
+}
+
+
 .hero { 
   /* padding: 120px 0 80px;  */
   text-align: center; 
@@ -393,15 +426,56 @@ h1 { font-size: 40px; margin: 6px 0 12px; line-height: 1.1; }
   /* color: white; */
 }
 
-.hero { 
+.section.hero { 
   align-items: center;
   justify-content: center;
 }
 
-.contact {
+.section.about { 
+  align-items: center;
+  justify-content: center;
+}
+
+.section.projects { 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section.contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* pushes footer to the bottom */
   min-height: 100vh; /* ensures full viewport height */
   padding: 78px 0;
 }
+
+.horizontal-stack {
+  display: flex;
+  gap: 1rem; /* space between items */
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 
+    "title github"
+    "description description"
+    "pills pills";
+  gap: 0.5rem 1rem;
+}
+
+.title { grid-area: title; }
+.github-link { 
+  grid-area: github; 
+  color: var(--text);
+}
+
+.github-link:hover { 
+  grid-area: github; 
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.description { grid-area: description; }
+.pill-list { grid-area: pills; }

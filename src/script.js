@@ -48,13 +48,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     const techList = project.tech.map(t => `<li>${t}</li>`).join("");
 
     card.innerHTML = `
-      <h3>${project.title}</h3>
-      <p>${project.description}</p>
-      <ul class="pill-list">${techList}</ul>
+      <div class="project-card">
+        <h3 class="title">${project.title}</h3>
+        <a href="${project.repo_link}" class="github-link" target="_blank">
+          <svg class="icon" width="24" height="24">
+            <use href="#icon-github"></use>
+          </svg>
+        </a>
+        <p class="description">${project.description}</p>
+        <ul class="pill-list">${techList}</ul>
+      <div>
     `;
 
     projectsContainer.appendChild(card);
   });
+  
 
   // Experience
   const experienceContainer = document.getElementById("experience-container");
@@ -96,14 +104,42 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Footer year
   document.getElementById("year").textContent = new Date().getFullYear();
-});
 
-
-
-fetch('./assets/objects/icons.html')
+  fetch('./assets/objects/icons.html')
   .then(response => response.text())
   .then(svgText => {
     const div = document.createElement('div');
     div.innerHTML = svgText;
     document.body.insertBefore(div, document.body.firstChild);
+  });
+
+  const arrow = document.querySelector('.scroll-down-arrow');
+  const heroSection = document.getElementById('hero-section-identifier');
+  // const aboutSection = document.getElementById('about-section-identifier');
+  // const projectsSection = document.getElementById('projects-section-identifier');
+  // const experienceSection = document.getElementById('experience-section-identifier');
+
+  if (!arrow || !heroSection) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      // Only show arrow when hero is substantially visible
+      if (entry.intersectionRatio > 0.1) { // 10% of hero still visible
+        arrow.classList.remove('hidden');
+        console.log("Hero visible - show arrow");
+      } else {
+        arrow.classList.add('hidden');
+        console.log("Hero hidden - hide arrow");
+      }
+    });
+  // }, {
+  //   threshold: [0.9] // Trigger at 0% and 10% visibility
+  });
+
+  observer.observe(heroSection);
+  // observer.observe(aboutSection);
+  // observer.observe(projectsSection);
+  // observer.observe(experienceSection);
 });
+
+
