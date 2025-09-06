@@ -34,14 +34,11 @@
       </ul>
     </nav>
   </header>
-  <main id="home">
-    <div class="maincontainer"></div>
-      <!-- <section class="hero section"> -->
+  <div class="maincontainer">
+    <main id="home">
 
-
-
-<!-- HERO SECTION -->
-      <section class="section one">
+      <!-- HERO SECTION -->
+      <section id = "hero" class="section hero">
         <div class="container">
           <p class="eyebrow">ML, Mathematics & CompSci</p>
           <h1>Hi, I'm <span class="accent">Lucas Grant</span>.</h1>
@@ -72,8 +69,8 @@
 
 
 
-<!-- ABOUT SECTION -->
-      <section class="section two" id="about">
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section about">
       <!-- <section id="about" class="section"> -->
         <div class="container two-col">
           <img src="./assets/images/hero.jpg" alt="Lucas Grant" class="hero-image">
@@ -93,41 +90,28 @@
         </div>
       </section>
 
-      <!-- <section id="skills" class="section">
-        <div class="container">
-          <h2>Skills</h2>
-          <div class="tags">
-            <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit‑learn</span><span>LangChain</span>
-            <span>FastAPI</span><span>Flask</span><span>PostgreSQL</span><span>Airflow</span><span>dbt</span>
-            <span>Docker</span><span>Kubernetes</span><span>AWS</span><span>GCP</span><span>Terraform</span>
-            <span>TypeScript</span><span>React</span><span>Next.js</span><span>Node.js</span>
-            <span>Experimentation</span><span>Monitoring</span><span>MLOps</span>
-          </div>
-        </div>
-      </section> -->
-
-      <section id="projects" class="section">
+      <section id="projects" class="section projects">
         <div class="container">
           <h2>Projects</h2>
           <div class="grid" id="projects-container"></div>
         </div>
       </section>
 
-      <section id="experience" class="section">
+      <section id="experience" class="section experience">
         <div class="container">
           <h2>Experience</h2>
           <div class="timeline" id="experience-container"></div>
         </div>
       </section>
 
-      <section id="education" class="section">
+      <section id="education" class="section education">
         <div class="container">
           <h2>Education</h2>
           <div class="timeline" id="education-container"></div>
         </div>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact" class="section contact">
         <div class="container">
           <h2>Contact</h2>
           <p>Interested in working together or just want to say hi? Reach out:</p>
@@ -138,20 +122,36 @@
             <a class="contact-card" href="#" download>Resume</a>
           </div>
         </div>
-      </section>
-    </div>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
-    </div>
-    <div class="social-links">
-      <a href="#" class="social-link">LinkedIn</a>
-      <a href="#" class="social-link">GitHub</a>
-      <a href="#" class="social-link">Email</a>
-    </div>
-  </footer>
+        <footer class="site-footer">
+          <div class="container footer-content">
+            <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
+            <div class="social-links">
+              <!-- <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">GitHub</a>
+              <a href="#" class="social-link">Email</a> -->
+              <a href="https://github.com" class="social-button" target="_blank">
+                <svg class="icon" width="12" height="12">
+                  <use href="#icon-github"></use>
+                </svg>
+              </a>
+              <a href="https://linkedin.com" class="social-button" target="_blank">
+                <svg class="icon" width="12" height="12">
+                  <use href="#icon-linkedin"></use>
+                </svg>
+              </a>
+              <a href="mailto:contact@lucasgrant.com" class="social-button">
+                <svg class="icon" width="12" height="12">
+                  <use href="#icon-mail"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+        
+      </section>
+    </main>
+  </div>
 
   <script src="./script.js"></script>
 
