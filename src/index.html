@@ -21,7 +21,7 @@
     <nav class="nav">
       
       <a class="brand" href="#home">
-        <img src="./images/logo.png" alt="lucasgrant.com" class="header-image">lucasgrant.com
+        <img src="./assets/images/logo.png" alt="lucasgrant.com" class="header-image">lucasgrant.com
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links">
@@ -34,25 +34,49 @@
       </ul>
     </nav>
   </header>
-  <div class="maincontainer">
-    <main id="home">
+  <main id="home">
+    <div class="maincontainer"></div>
       <!-- <section class="hero section"> -->
+
+
+
+<!-- HERO SECTION -->
       <section class="section one">
         <div class="container">
-          <p class="eyebrow">Machine Learning, Applied Mathematics & Finance</p>
+          <p class="eyebrow">ML, Mathematics & CompSci</p>
           <h1>Hi, I'm <span class="accent">Lucas Grant</span>.</h1>
-          <p class="subtitle">I build reliable software systems and ship machine learning features end‑to‑end — from data and modeling to production deployment and MLOps.</p>
+          <p class="subtitle">I’m an aspiring software developer currently studying mathematics and computer science at university, with a passion for machine learning, music, history and game development.</p>
           <div class="cta-row">
             <a class="button primary" href="#projects">View Projects</a>
-            <a class="button ghost" href="#contact">Get in touch</a>
+            <!-- <a class="button ghost" href="#contact">Get in touch</a> -->
+
+            <a href="https://github.com" class="social-button" target="_blank">
+              <svg class="icon" width="24" height="24">
+                <use href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://linkedin.com" class="social-button" target="_blank">
+              <svg class="icon" width="24" height="24">
+                <use href="#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="mailto:contact@lucasgrant.com" class="social-button">
+              <svg class="icon" width="24" height="24">
+                <use href="#icon-mail"></use>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
 
+
+
+
+<!-- ABOUT SECTION -->
       <section class="section two" id="about">
       <!-- <section id="about" class="section"> -->
         <div class="container two-col">
-          <img src="./images/hero.jpg" alt="Lucas Grant" class="hero-image">
+          <img src="./assets/images/hero.jpg" alt="Lucas Grant" class="hero-image">
           
           <div>
             <h2>About</h2>
@@ -115,15 +139,21 @@
           </div>
         </div>
       </section>
-    </main>
+    </div>
+  </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
-      </div>
-    </footer>
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
+    </div>
+    <div class="social-links">
+      <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">GitHub</a>
+      <a href="#" class="social-link">Email</a>
+    </div>
+  </footer>
 
-    <script src="./script.js"></script>
-  </div>
+  <script src="./script.js"></script>
+
 </body>
 </html>

@@ -14,7 +14,7 @@
       "location": "Stockholm, Sweden",
       "start_date": "August 2024",
       "end_date": "Present",
-      "image": "images/kth.png",
+      "image": "kth.png",
       "notables": [
         "Program Emphasis: Applied Mathematics, Computer Science, and Numerical Analysis.", 
         "FDEV: Active member of student group collaborating on programming projects.", 
@@ -27,7 +27,7 @@
       "location": "Stockholm, Sweden",
       "start_date": "August 2020",
       "end_date": "June 2023",
-      "image": "images/taby.png",
+      "image": "taby.png",
       "notables": [
         "Graduation Paper: \"Probability in a Basic Quantum Computer\"", 
         "Extracurricular: Lead Organizer of Class Graduation"
@@ -41,7 +41,7 @@
       "location": "Stockholm, Sweden",
       "start_date": "September 2025",
       "end_date": "Present",
-      "image": "images/gilion.png",
+      "image": "gilion.png",
       "responsibilities": [
         "Work with RAG systems optimizing for user experience and cost"
       ]
@@ -52,7 +52,7 @@
       "location": "Stockholm, Sweden",
       "start_date": "June 2025",
       "end_date": "Present",
-      "image": "images/ais.png",
+      "image": "ais.png",
       "responsibilities": [
         "Manage communication with prospective and existing partners",
         "Negotiate agreements and establish long-term partnership plans",
@@ -65,7 +65,7 @@
       "location": "Stockholm, Sweden",
       "start_date": "June 2025",
       "end_date": "August 2025",
-      "image": "images/hm.jpg",
+      "image": "hm.jpg",
       "responsibilities": [
         "Full-stack iOS and Android development using Swift, SwiftUI, Kotlin, and Jetpack Compose",
         "Worked with FastAPI backend in Python and PostgreSQL database",
@@ -78,7 +78,7 @@
       "location": "Danderyd, Sweden",
       "start_date": "August 2023",
       "end_date": "July 2024",
-      "image": "images/danderyds_kommun.png",
+      "image": "danderyds_kommun.png",
       "responsibilities": [
         "Assisted teachers during lessons",
         "Planned and conducted after-school childcare and recreational activities"

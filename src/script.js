@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     item.innerHTML = `
       <div class="timeline-meta">${exp.start_date} - ${exp.end_date}</div>
       <div class="timeline-content experience-row">
-        <img src="${exp.image}" alt="${exp.title}" class="experience-image">
+        <img src="./assets/images/${exp.image}" alt="${exp.title}" class="experience-image">
         <div class="experience-text">
           <h3>${exp.title}</h3>
           <p>${exp.responsibilities[0]}</p>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     item.innerHTML = `
       <div class="timeline-meta">${edc.start_date} - ${edc.end_date}</div>
       <div class="timeline-content experience-row">
-        <img src="${edc.image}" alt="${edc.institution}" class="experience-image">
+        <img src="./assets/images/${edc.image}" alt="${edc.institution}" class="experience-image">
         <div class="experience-text">
           <h3>${edc.institution}</h3>
           <p>${edc.degree}</p>
@@ -96,4 +96,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Footer year
   document.getElementById("year").textContent = new Date().getFullYear();
+});
+
+
+
+fetch('./assets/objects/icons.html')
+  .then(response => response.text())
+  .then(svgText => {
+    const div = document.createElement('div');
+    div.innerHTML = svgText;
+    document.body.insertBefore(div, document.body.firstChild);
 });
