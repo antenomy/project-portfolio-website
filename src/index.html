@@ -15,6 +15,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lucasgrant.com" />
 </head>
+
 <body>
   <header class="site-header">
     <nav class="nav">
@@ -33,91 +34,96 @@
       </ul>
     </nav>
   </header>
-
-  <main id="home">
-    <section class="hero section">
-      <div class="container">
-        <p class="eyebrow">Software & ML Engineer</p>
-        <h1>Hi, I'm <span class="accent">Lucas Grant</span>.</h1>
-        <p class="subtitle">I build reliable software systems and ship machine learning features end‑to‑end — from data and modeling to production deployment and MLOps.</p>
-        <div class="cta-row">
-          <a class="button primary" href="#projects">View Projects</a>
-          <a class="button ghost" href="#contact">Get in touch</a>
+  <div class="maincontainer">
+    <main id="home">
+      <!-- <section class="hero section"> -->
+      <section class="section one">
+        <div class="container">
+          <p class="eyebrow">Machine Learning, Applied Mathematics & Finance</p>
+          <h1>Hi, I'm <span class="accent">Lucas Grant</span>.</h1>
+          <p class="subtitle">I build reliable software systems and ship machine learning features end‑to‑end — from data and modeling to production deployment and MLOps.</p>
+          <div class="cta-row">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button ghost" href="#contact">Get in touch</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section">
-      <div class="container two-col">
-        <div>
-          <h2>About</h2>
-          <p>I'm a software engineer specializing in applied machine learning. I care about clean architecture, developer experience, and measurable product impact.</p>
-          <p>Comfortable across the stack: Python, TypeScript, cloud infra, data pipelines, and model serving. I enjoy translating research into production features.</p>
+      <section class="section two" id="about">
+      <!-- <section id="about" class="section"> -->
+        <div class="container two-col">
+          <img src="./images/hero.jpg" alt="Lucas Grant" class="hero-image">
+          
+          <div>
+            <h2>About</h2>
+            <p>I'm a software engineer specializing in applied machine learning. I care about clean architecture, developer experience, and measurable product impact.</p>
+            <p>Comfortable across the stack: Python, TypeScript, cloud infra, data pipelines, and model serving. I enjoy translating research into production features.</p>
+          </div>
+          <aside class="aside-card">
+            <ul class="meta-list">
+              <li><span>Location</span><strong>San Francisco, CA</strong></li>
+              <li><span>Focus</span><strong>ML Systems, Platform, LLM Apps</strong></li>
+              <li><span>Open to</span><strong>Contract, Full‑time</strong></li>
+            </ul>
+          </aside>
         </div>
-        <aside class="aside-card">
-          <ul class="meta-list">
-            <li><span>Location</span><strong>San Francisco, CA</strong></li>
-            <li><span>Focus</span><strong>ML Systems, Platform, LLM Apps</strong></li>
-            <li><span>Open to</span><strong>Contract, Full‑time</strong></li>
-          </ul>
-        </aside>
-      </div>
-    </section>
+      </section>
 
-    <!-- <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-        <div class="tags">
-          <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit‑learn</span><span>LangChain</span>
-          <span>FastAPI</span><span>Flask</span><span>PostgreSQL</span><span>Airflow</span><span>dbt</span>
-          <span>Docker</span><span>Kubernetes</span><span>AWS</span><span>GCP</span><span>Terraform</span>
-          <span>TypeScript</span><span>React</span><span>Next.js</span><span>Node.js</span>
-          <span>Experimentation</span><span>Monitoring</span><span>MLOps</span>
+      <!-- <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="tags">
+            <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit‑learn</span><span>LangChain</span>
+            <span>FastAPI</span><span>Flask</span><span>PostgreSQL</span><span>Airflow</span><span>dbt</span>
+            <span>Docker</span><span>Kubernetes</span><span>AWS</span><span>GCP</span><span>Terraform</span>
+            <span>TypeScript</span><span>React</span><span>Next.js</span><span>Node.js</span>
+            <span>Experimentation</span><span>Monitoring</span><span>MLOps</span>
+          </div>
         </div>
-      </div>
-    </section> -->
+      </section> -->
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="grid" id="projects-container"></div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <h2>Experience</h2>
-        <div class="timeline" id="experience-container"></div>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <h2>Education</h2>
-        <div class="timeline" id="education-container"></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Interested in working together or just want to say hi? Reach out:</p>
-        <div class="contact-cards">
-          <a class="contact-card" href="mailto:hello@lucasgrant.com">Email</a>
-          <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="contact-card" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-          <a class="contact-card" href="#" download>Resume</a>
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="grid" id="projects-container"></div>
         </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline" id="experience-container"></div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="timeline" id="education-container"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Interested in working together or just want to say hi? Reach out:</p>
+          <div class="contact-cards">
+            <a class="contact-card" href="mailto:hello@lucasgrant.com">Email</a>
+            <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="contact-card" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a class="contact-card" href="#" download>Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer class="site-footer">
-    <div class="container">
-      <span>© <span id="year"></span> Lucas Grant. All rights reserved.</span>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
+    <script src="./script.js"></script>
+  </div>
 </body>
 </html>

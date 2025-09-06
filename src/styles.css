@@ -15,6 +15,7 @@
 html, body { height: 100%; }
 html { scroll-behavior: smooth; }
 body {
+  scroll-behavior: smooth;
   overscroll-behavior: none;
   height: 100%;
   margin: 0;
@@ -30,7 +31,6 @@ body {
 }
 
 .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-.section { padding: 80px 0; }
 
 /* Header & Nav */
 .site-header {
@@ -73,6 +73,16 @@ body {
 .hero { padding: 120px 0 80px; text-align: center; }
 .eyebrow { color: var(--muted); text-transform: uppercase; letter-spacing: 0.12em; font-size: 12px; margin: 0 0 8px; }
 h1 { font-size: 40px; margin: 6px 0 12px; line-height: 1.1; }
+
+.hero-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  flex-shrink: 0;
+  border: 2px solid var(--border);
+}
+
 .accent { color: var(--accent); }
 .subtitle { color: var(--muted); max-width: 760px; margin: 0 auto 24px; font-size: 18px; }
 .cta-row { display: flex; gap: 12px; justify-content: center; }
@@ -204,3 +214,26 @@ h1 { font-size: 40px; margin: 6px 0 12px; line-height: 1.1; }
   .experience-row { flex-direction: column; gap: 12px; }
   .experience-image { width: 50px; height: 50px; }
 }
+
+
+.maincontainer {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; /* snap vertically */
+}
+
+.section {
+  height: 100vh; /* full viewport height */
+  scroll-snap-align: start; /* align each section */
+  display: flex;
+  padding: 80px 0;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* font-size: 3rem; */
+  /* color: white; */
+}
+
+/* .one { background: #1abc9c; }
+.two { background: #3498db; }
+.three { background: #9b59b6; }
+.four { background: #e74c3c; } */

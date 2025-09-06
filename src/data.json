@@ -89,13 +89,14 @@
     {
       "title": "Fashion ragSearch",
       "description": "Built a retrieval augmented generation system with semantic search, evaluation harness, and observability.",
-      "tech": ["Python", "FastAPI", "OpenAI", "RAG", "Swift", "PostgreSQL"]
+      "tech": ["Python", "FastAPI", "PyTorch", "OpenAI", "RAG", "Swift", "SwiftUI", "PostgreSQL"]
     },
     {
-      "title": "Time-Series Anomaly Detection",
+      "title": "MNIST",
       "description": "Designed an online anomaly detector with seasonal decomposition and robust thresholds; reduced alert noise by 60%.",
-      "tech": ["PyTorch", "Airflow", "Grafana"]
+      "tech": ["Python", "PyTorch", "ML"]
     }
+
   ],
   "skills": {
     "programming_languages": ["Python", "Go", "Swift", "Kotlin", "Java", "Matlab"],
