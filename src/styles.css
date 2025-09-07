@@ -442,6 +442,7 @@ h1 { font-size: 40px; margin: 6px 0 12px; line-height: 1.1; }
 .section.hero { 
   align-items: center;
   justify-content: center;
+  margin-top: -4rem;
 }
 
 .section.about { 
