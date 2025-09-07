@@ -28,6 +28,7 @@ body {
 
   background: linear-gradient(135deg, #000000 50%, #120622 80%, #35116b 110%);
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .padding-sm { padding: 1rem; }
@@ -67,7 +68,19 @@ body {
   text-decoration: none; /* remove underline */
 }
 
-.nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.nav { 
+  display: flex; 
+  align-items: center; 
+  justify-content: 
+  space-between; 
+  height: 64px; 
+}
+
+.nav-construction {
+  margin-left: auto;
+  color: var(--muted);
+  padding-right: 2rem;
+}
 
 .nav-links { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
 .nav-links a { color: var(--muted); text-decoration: none; padding: 8px 10px; border-radius: 8px; }
